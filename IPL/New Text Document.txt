@@ -1,0 +1,10 @@
+iplUser table(user_id,password)
+UpdateRun  table(id,run,wicket)
+updatebatting (no,name,run,ball,fours,sixs,s_r)
+updatebowling(no,name,over,maiden,run,wicket,economy)
+
+create table battinginfo (ID int, NAME varchar2(20), MATCH int, RUNS int, AVGS varchar2(15), HS int, CENTURY int,HALF_CENTURY int)
+
+create table bowlinginfo (ID int, NAME varchar2(20), MATCH int, BALL int, RUNS int, WICKET int, ECONOMY varchar2(10), FIVE_WICKET int)
+
+create table matchinfo (ID int, VENUE varchar2(30), MATCH_DATE varchar2(15), TEAM_F varchar2(25), TEAM_S varchar2(25), WINNER varchar2(25), METHOD varchar2(20), PLAYER_OF_MATCH varchar2(25))
